@@ -1,0 +1,145 @@
+
+
+
+.ilerleme {
+    width: 100%;
+    background-color: rgb(208, 224, 224);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cubuk {
+    background-color: #1E3A8A;
+    height: 10px;
+}
+
+
+.slide {
+    padding: 15px;
+
+}
+
+.slide p {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.skills-cards {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+    height: 90vh;
+   
+    
+}
+
+.teknik-yetenekler,
+.araçlar {
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid #dce3ea;
+    border-radius: 12px;
+   flex: 1;
+   padding: 15px;
+   
+}
+
+.teknik-yetenekler{
+    height: 80vh;
+    line-height: 50px;
+   
+
+}
+
+.araçlar{
+    height:40vh ;
+  
+}
+
+.araclar{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+
+  
+}
+
+.arac{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #6a90f7;
+    color: #fff;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+
+.araçlar h4{
+    margin-bottom: 5px;
+}
+.yetenek-kategori h4{
+    width: 100%;
+}
+
+.yetenek-kategori{
+    border: 1px solid #dce3ea;
+    border-radius: 12px;
+    margin-top: 10px;
+    height:39vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+    
+   
+    
+}
+
+
+.donut{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.donut-ic{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.yetenek-content{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+   
+   
+}
+.dot-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    
+}
+
+.right-column{
+    width: 400px;
+}
+

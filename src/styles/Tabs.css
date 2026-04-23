@@ -3,12 +3,11 @@
     gap: 30px;
     align-items: stretch; /* Her iki tarafın boyunu eşitler */
     min-height: 90vh;
-
 }
 
 /*Sol Kısım*/
 .left {
-    width: 35%;
+    width: 25%;
     background-color: #F8F9FA;
     border-radius: 5px;
 
@@ -23,7 +22,7 @@
 }
 
 .left img {
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
     margin-top: 40px;
 }
@@ -32,6 +31,7 @@
 
 .content {
     text-align: center;
+    overflow: hidden;
 
 }
 
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 20px;
+    margin-left: 15px;
 
 }
 

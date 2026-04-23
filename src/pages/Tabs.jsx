@@ -5,15 +5,14 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { CgProfile } from "react-icons/cg";
-import { CiMail , CiYoutube  } from "react-icons/ci";
+import { CiMail} from "react-icons/ci";
 import { IoGitNetworkOutline } from "react-icons/io5";
 import { FiTool } from "react-icons/fi";
-import { FaLocationDot } from "react-icons/fa6";
-import { SlCalender } from "react-icons/sl";
-import { FaLinkedinIn ,  FaGithub } from "react-icons/fa";
 import '../styles/Tabs.css';
 import { GoProjectSymlink } from "react-icons/go";
 import { PiMedalThin } from "react-icons/pi";
+import Sidebar from '../components/Sidebar'
+import Skills from './Skills';
 export default function LabTabs() {
   const [value, setValue] = React.useState('1');
 
@@ -34,33 +33,7 @@ export default function LabTabs() {
         </Box>
         <TabPanel value="1">
             <div className='container' >
-                <div className='left'>
-                    <div className="profile-img">
-                         <img src="../src/img/aleyimg.jpg" alt="Profile" />
-                    </div>
-                        <div className="content">
-                            <h4>Aleyna Akduman</h4>
-                            <p style={{ color: 'blue' }} >Frontend Developer</p>
-                            <p style={{color: '#6C757D', margin: '10px'}} >React, JavaScript ve modern teknolojilerle kullanıcı dostu web uygulamaları geliştiriyorum</p>
-                            <span className='cizgi'></span>
-                     <div style={{color: '#6C757D'}} className='content-2' >
-                           <p><SlCalender />  10-04-2003</p>
-                        <p><FaLocationDot />  İstanbul, Türkiye</p>
-                        <p><CiMail /> aleyna9@gmail.com</p>
-                    <div className='social-icons' >
-                          <a href="https://www.linkedin.com/in/aleyna-akduman/" target="_blank" rel="noopener noreferrer">
-                            <FaLinkedinIn />
-                        </a>
-                        <a href="https://github.com/aleyna-akduman" target="_blank" rel="noopener noreferrer">
-                            <FaGithub />
-                        </a>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-                            <CiYoutube />
-                        </a>
-                    </div>
-                     </div>
-                        </div>
-                </div>
+                <Sidebar/>
 
 
                  <div className='right'>
@@ -140,7 +113,9 @@ export default function LabTabs() {
                 </div>
             </div>
         </TabPanel>
-        <TabPanel value="2">Item Two</TabPanel>
+        <TabPanel value="2">
+            <Skills/>
+        </TabPanel>
         <TabPanel value="3">Item Three</TabPanel>
         <TabPanel value="4">Item Four</TabPanel>
       </TabContext>
