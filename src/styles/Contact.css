@@ -1,0 +1,151 @@
+
+
+.right-contact{
+display: flex;
+
+
+   
+}
+
+.right-content{
+display:flex;
+flex-direction: column;
+
+ 
+}
+
+
+.input{
+   height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #6C757D;
+    border-radius: 10px;
+    padding: 10px;
+    
+  
+  
+
+}
+.input input{
+  
+   padding: 8px;
+  border: 1px solid #6C757D;
+    border-radius: 8px;
+  
+}
+
+
+.input-column{
+display: flex;
+gap: 10px;
+
+}
+
+
+.input-column input{
+    width: 100%;
+}
+
+.input button{
+    padding: 3px;
+    background-color: #1E3A8A;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.contact{
+    border: 1px solid #6C757D;
+    
+     border-radius: 10px;
+     width: 40%;
+     height: 430px;
+     padding: 10px;
+     
+    
+   
+}
+
+.contact-cards{
+    word-break: break-all;
+}
+
+.contact-card{
+    border: 1px solid #6C757D;
+    margin: 10px;
+    display: flex;
+    
+    height: 60px;
+    border-radius: 8px;
+   background-color: #F8F9FA;
+   
+  
+    
+   
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    
+    overflow: hidden;
+    
+    
+
+}
+
+
+
+.contact-card .icon{
+    background-color: #E0F2FE;
+    margin:auto 5px;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.top-right{
+    display: flex;
+    width: 100%;
+  
+   gap: 65px;
+}
+
+
+
+.end-contact{
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    border: 1px solid #6C757D;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 60px;
+   
+}
+
+.end-content{
+    display: flex;
+   flex-direction: column;
+}
+
+.end-one{
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.end-two{
+      display: flex;
+    align-items: center;
+}
+
+.end-icon{
+    font-size: 50px;
+}

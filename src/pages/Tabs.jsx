@@ -13,6 +13,8 @@ import { GoProjectSymlink } from "react-icons/go";
 import { PiMedalThin } from "react-icons/pi";
 import Sidebar from '../components/Sidebar'
 import Skills from './Skills';
+import Experience from './Experience';
+import Contact from './Contact'
 export default function LabTabs() {
   const [value, setValue] = React.useState('1');
 
@@ -116,8 +118,12 @@ export default function LabTabs() {
         <TabPanel value="2">
             <Skills/>
         </TabPanel>
-        <TabPanel value="3">Item Three</TabPanel>
-        <TabPanel value="4">Item Four</TabPanel>
+        <TabPanel value="3">
+            <Experience/>
+        </TabPanel>
+        <TabPanel value="4">
+            <Contact/>
+        </TabPanel>
       </TabContext>
     </Box>
   );
