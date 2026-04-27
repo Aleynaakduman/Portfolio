@@ -1,5 +1,7 @@
 import Sidebar from "../components/Sidebar"
 import '../styles/Experience.css'
+import bera from "../img/bera.jpeg"
+import ndm from "../img/ndm.webp"
 const Experience = () => {
   return (
     <div className="container" >
@@ -17,7 +19,7 @@ const Experience = () => {
     <div className="nokta">
      
    <div className="staj-card">
-                <img style={{width:'130px', height:'150px'}} src="../src/img/bera.jpeg" alt="" />
+                <img style={{width:'130px', height:'150px'}} src={bera} alt="" />
                 <div className="staj-content">
                                   <h4>Bera Arge Yazılım</h4>
                 <p style={{color:'blue'}} >Frontend Stajyer</p>
@@ -31,7 +33,7 @@ const Experience = () => {
     <div className="cizgi-yolu">
         <div className="nokta-orta">
             <div className="staj-card">
-                <img style={{width:'130px', height:'150px'}} src="../src/img/ndm.webp" alt="" />
+                <img style={{width:'130px', height:'150px'}} src={ndm} alt="" />
                <div className="staj-content">
                  <h4>NDM Software</h4>
                 <p style={{color:'blue'}} >Frontend Stajyer</p>

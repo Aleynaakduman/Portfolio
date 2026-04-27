@@ -15,6 +15,9 @@ import Sidebar from '../components/Sidebar'
 import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact'
+import projeres1 from "../img/proje-1.png"
+import projeres2 from "../img/hava.webp"
+import projeres3 from "../img/web.webp"
 export default function LabTabs() {
    const project = () => {
     window.location.href = "https://github.com/Aleynaakduman/Portfolio";
@@ -108,7 +111,7 @@ export default function LabTabs() {
                     <h3>Son Çalışmalarım</h3> 
                     <div className="cards-2">
                         <div className="card-2">
-                            <img src="../src/img/proje-1.png" alt="" />
+                            <img src={projeres1} alt="" />
                             <div className="card2-contact">
                                 <h5>Kişisel Portföy</h5>
                             <p>React,MUI</p>
@@ -116,7 +119,7 @@ export default function LabTabs() {
                             </div>
                         </div>
                         <div className="card-2">
-                            <img src="../src/img/hava.webp"/>
+                            <img src={projeres2}/>
                             <div className="card2-contact">
                                 <h5>Hava Durumu</h5>
                             <p>Openweather API</p>
@@ -124,7 +127,7 @@ export default function LabTabs() {
                             </div>
                         </div>
                         <div className="card-2">
-                            <img src="../src/img/web.webp" alt="" />
+                            <img src={projeres3} alt="" />
                            <div className="card2-contact">
                              <h5>Web Sitesi</h5>
                             <p>React</p>

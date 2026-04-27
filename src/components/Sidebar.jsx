@@ -4,12 +4,13 @@ import { SlCalender } from "react-icons/sl";
 import { FaLinkedinIn ,  FaGithub } from "react-icons/fa";
 import { CiMail , CiYoutube  } from "react-icons/ci";
 import '../styles/Tabs.css'
+import aleyna from "../img/aleyimg.jpg"
 const Sidebar = () => {
   return (
     
         <div className='left'>
                     <div className="profile-img">
-                         <img src="../src/img/aleyimg.jpg" alt="Profile" />
+                         <img src={aleyna} alt="Profile" />
                     </div>
                         <div className="content">
                             <h4>Aleyna Akduman</h4>

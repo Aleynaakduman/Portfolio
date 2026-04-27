@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import { Container } from '@mui/material';
-
+import navbar from "../img/logo.png"
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -63,7 +63,7 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            <img style={{width:'70px'}} src="../src/img/logo.png" alt="" />
+            <img style={{width:'70px'}} src={navbar} alt="" />
           </Typography>
           <Search>
             <SearchIconWrapper>
