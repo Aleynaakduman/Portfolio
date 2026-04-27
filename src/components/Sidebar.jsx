@@ -17,9 +17,11 @@ const Sidebar = () => {
                             <p style={{color: '#6C757D', margin: '10px'}} >React, JavaScript ve modern teknolojilerle kullanıcı dostu web uygulamaları geliştiriyorum</p>
                             <span className='cizgi'></span>
                      <div style={{color: '#6C757D'}} className='content-2' >
-                           <p><SlCalender />  10-04-2003</p>
+                       <div className="content-end">
+                            <p><SlCalender />  10-04-2003</p>
                         <p><FaLocationDot />  İstanbul, Türkiye</p>
                         <p><CiMail /> aleyna9@gmail.com</p>
+                       </div>
                     <div className='social-icons' >
                           <a href="https://www.linkedin.com/in/aleyna-akduman/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />

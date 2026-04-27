@@ -16,6 +16,19 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact'
 export default function LabTabs() {
+   const project = () => {
+    window.location.href = "https://github.com/Aleynaakduman/Portfolio";
+   }
+
+   const project2 = () => {
+    window.location.href = "https://github.com/Aleynaakduman/hava-durumu";
+   }
+
+
+   const project3 = () => {
+    window.location.href = "https://github.com/Aleynaakduman/react-coffee";
+   }
+
   const [value, setValue] = React.useState('1');
 
   const handleChange = (event, newValue) => {
@@ -84,7 +97,7 @@ export default function LabTabs() {
                             <p>JavaScript</p>
                             <p>Material UI</p>
                             <p>CSS/SASS</p>
-                            <p>UI/UX Design</p>
+                            <p>Responsive</p>
                         </div>
                     </div>
 
@@ -95,19 +108,28 @@ export default function LabTabs() {
                     <h3>Son Çalışmalarım</h3> 
                     <div className="cards-2">
                         <div className="card-2">
-                            <img src="../src/img/hava.webp" alt="" />
-                            <h5>Hava Durumu</h5>
-                            <p>React,API</p>
+                            <img src="../src/img/proje-1.png" alt="" />
+                            <div className="card2-contact">
+                                <h5>Kişisel Portföy</h5>
+                            <p>React,MUI</p>
+                            <button onClick={project}  className="proje-buton" >Detay</button>
+                            </div>
                         </div>
                         <div className="card-2">
-                            <img src="../src/img/alisveris.webp"/>
-                            <h5>Alışveriş Sepeti</h5>
-                            <p>React-Redux Toolkit</p>
+                            <img src="../src/img/hava.webp"/>
+                            <div className="card2-contact">
+                                <h5>Hava Durumu</h5>
+                            <p>Openweather API</p>
+                            <button onClick={project2} className="proje-buton" >Detay</button>
+                            </div>
                         </div>
                         <div className="card-2">
                             <img src="../src/img/web.webp" alt="" />
-                            <h5>Web Sitesi</h5>
+                           <div className="card2-contact">
+                             <h5>Web Sitesi</h5>
                             <p>React</p>
+                            <button onClick={project3} className="proje-buton" >Detay</button>
+                           </div>
                         </div>
                     </div>
                     </div> 

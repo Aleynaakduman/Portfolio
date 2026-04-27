@@ -53,7 +53,7 @@ export default function SearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
           
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: '#4f75dd' }}>
       <Container>
             <Toolbar disableGutters >
          
@@ -63,7 +63,7 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Profile Dashboard
+            <img style={{width:'70px'}} src="../src/img/logo.png" alt="" />
           </Typography>
           <Search>
             <SearchIconWrapper>
@@ -71,7 +71,7 @@ export default function SearchAppBar() {
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
+              inputProps={{ 'aria-label': 'search'  }}
             />
           </Search>
         </Toolbar>

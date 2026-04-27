@@ -4,6 +4,7 @@
 display: flex;
 
 
+
    
 }
 
@@ -24,6 +25,8 @@ flex-direction: column;
     border-radius: 10px;
     padding: 10px;
     
+   
+    
   
   
 
@@ -35,6 +38,7 @@ flex-direction: column;
     border-radius: 8px;
   
 }
+
 
 
 .input-column{
@@ -55,6 +59,7 @@ gap: 10px;
     font-size: 17px;
     border: none;
     border-radius: 8px;
+
 }
 
 
@@ -65,6 +70,9 @@ gap: 10px;
      width: 40%;
      height: 430px;
      padding: 10px;
+
+
+   
      
     
    
@@ -72,16 +80,20 @@ gap: 10px;
 
 .contact-cards{
     word-break: break-all;
+  
 }
 
 .contact-card{
     border: 1px solid #6C757D;
     margin: 10px;
     display: flex;
+    align-items: center;
+    font-size: 10px;
     
     height: 60px;
     border-radius: 8px;
    background-color: #F8F9FA;
+  
    
   
     
@@ -111,9 +123,11 @@ gap: 10px;
 
 .top-right{
     display: flex;
+    align-items: stretch;
     width: 100%;
   
    gap: 65px;
+   
 }
 
 
@@ -148,4 +162,61 @@ gap: 10px;
 
 .end-icon{
     font-size: 50px;
+}
+
+
+/*Tablet Responsive*/
+
+
+@media screen and (max-width: 1024px) {
+.top-right{
+    gap: 5px;
+  
+}
+
+.contact{
+    width: 70%;
+    
+   
+}
+ .end-contact{
+    gap: 20px;
+ }
+
+    
+}
+
+
+/*Mobil Responsive*/
+@media screen and (max-width: 768px) {
+    .container{
+      display: block;
+     
+    }
+  
+    .right-content{
+    width: 100%;
+    }
+    .right-contact{
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-right{
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact{
+      width: 100%;
+    }
+
+
+    .end-contact{
+      width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+      
+    }
 }

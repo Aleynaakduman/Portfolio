@@ -61,7 +61,7 @@ function Skills() {
                         </div>
 
                     </div>
-
+                        
                     <div className="right-column">
                         <div className="araçlar" >
                             <h4>Araçlar & Teknolojiler</h4>

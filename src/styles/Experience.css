@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: center;
     width: fit-content;
+    
 }
+
 
 .nokta {
     width: 10px;
@@ -26,7 +28,7 @@
     background-color: #1E3A8A;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
@@ -35,8 +37,8 @@
 
 .staj-card {
     width: auto;
-    max-width: 700px;
-    min-width: 600px;
+    min-width: 700px;
+    height: 180px;
     position: absolute;
     bottom: -150;
     left: 40px;
@@ -48,21 +50,57 @@
     min-height: 150px;
     box-shadow: 0 0 5px #00000085;
     
-
-
-}
-
-.staj-card img{
-    width: 150px;
-    height: 100%;
     
-   
+
+
 }
+
 
 .staj-card .staj-content{
     display: flex;
     flex-direction: column;
+  
+    
     word-break: break-all;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
+
+.experience-content{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:1024px) {
+    
+
+    .staj-card{
+ 
+      min-width: 550px;
+      
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+
+    .staj-card{
+ 
+      min-width: 270px;
+      min-height: 250px;
+      height: auto;
+      
+    }
+
+    .staj-card img{
+        margin-top: 50px;
+    }
+
+    .staj-content{
+       margin-left: 5px;
+    }
+
+  
+    
+}

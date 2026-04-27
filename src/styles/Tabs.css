@@ -2,7 +2,7 @@
     display: flex;
     gap: 30px;
     align-items: stretch; /* Her iki tarafın boyunu eşitler */
-    min-height: 90vh;
+   
 }
 
 /*Sol Kısım*/
@@ -10,6 +10,7 @@
     width: 25%;
     background-color: #F8F9FA;
     border-radius: 5px;
+
 
 }
 
@@ -140,6 +141,9 @@
 
 .right-end {
     margin-top: 25px;
+   
+   
+
 }
 
 .cards-2 {
@@ -157,11 +161,71 @@
     flex: 1 1 180px;
     gap: 15px;
     align-items: center;
-    min-width: 0
+    min-width: 0;
+    overflow-y: hidden;
+
 }
 
+.card2-contact{
+    padding-left: 7px;
+ 
+}
 .card-2 img {
     width: 100%;
     height: 60%;
 
+}
+
+
+.proje-buton{
+    background-color: #1E3A8A;
+    color: #fff;
+    padding: 3px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/*Sidebar Mobil Responsive*/
+@media screen and (max-width: 768px){
+    .left{
+     width: 100%;
+     
+     margin-bottom: 20px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+    .content-end{
+        display: none;
+    }
+
+
+    .cizgi{
+        display: none;
+    }
+}
+
+/*Hakkımda Mobil Respopnsive*/
+@media screen and (max-width:768px){
+    .right{
+        width: 100%;
+    }
+
+    .skills-card{
+  
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
 }
