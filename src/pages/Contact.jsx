@@ -47,7 +47,7 @@ function Contact() {
                                     <div style={{ color: 'purple' }} className="icon"><FaPhoneAlt /></div>
                                     <div className="contact-content">
                                         <p>Telefon</p>
-                                        <p>+90 555 555 55 55</p>
+                                        <p>+90 552 244 14 81</p>
                                     </div>
                                 </div>
 
@@ -65,7 +65,7 @@ function Contact() {
                                     <div style={{ color: 'blue' }} className="icon"><FaLinkedinIn /></div>
                                     <div className="contact-content">
                                         <p>Linkedin</p>
-                                        <p>linkedin.com/in/aleya-akduman</p>
+                                        <p>linkedin.com/in/aleyna-akduman-313997313/</p>
                                     </div>
                                 </div>
 

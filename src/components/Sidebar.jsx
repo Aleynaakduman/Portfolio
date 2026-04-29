@@ -21,13 +21,15 @@ const Sidebar = () => {
                        <div className="content-end">
                             <p><SlCalender />  10-04-2003</p>
                         <p><FaLocationDot />  İstanbul, Türkiye</p>
-                        <p><CiMail /> aleyna9@gmail.com</p>
+                        <p><CiMail /> akdumanaleyna9@gmail.com</p>
                        </div>
                     <div className='social-icons' >
-                          <a href="https://www.linkedin.com/in/aleyna-akduman/" target="_blank" rel="noopener noreferrer">
+                          <a href="https://www.linkedin.com/in/aleyna-akduman-313997313/
+
+" target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />
                         </a>
-                        <a href="https://github.com/aleyna-akduman" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Aleynaakduman" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                         </a>
                         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">

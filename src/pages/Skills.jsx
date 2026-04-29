@@ -1,7 +1,7 @@
 import Sidebar from "../components/Sidebar"
 import '../styles/Tabs.css'
 import '../styles/Skills.css'
-import { FaReact, FaHtml5, FaGithub, FaFigma, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaHtml5, FaGithub,FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMui, SiVite } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
@@ -71,8 +71,8 @@ function Skills() {
                                     <span>React</span>
                                 </div>
                                 <div className="arac" >
-                                    <TbBrandRedux />
-                                    <span>Redux</span>
+                                    <IoLogoJavascript />
+                                    <span>JavaScript</span>
                                 </div>
                                 <div className="arac" >
                                     <SiMui />
@@ -91,8 +91,8 @@ function Skills() {
                                     <span>Vite</span>
                                 </div>
                                 <div className="arac" >
-                                    <FaFigma />
-                                    <span>Figma</span>
+                                    <FaHtml5 />
+                                    <span>HTML&CSS</span>
                                 </div>
                                 <div className="arac" >
                                     <BsBootstrap />
